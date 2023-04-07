@@ -1,0 +1,59 @@
+* {
+
+    background-color: yellowgreen;
+}
+
+
+#para {
+
+    font-size: x-large;
+
+}
+
+
+#clockdabba {
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background: url(img.pg.png) no-repeat;
+    margin-top: 150px;
+}
+
+#hour,
+#minutes,
+#seconds {
+    position: absolute;
+    background: black;
+    border-radius: 5px;
+
+}
+
+#hour {
+
+    width: 18px;
+    height: 120px;
+    margin-left: 171px;
+    margin-top: 60px;
+    transform-origin: bottom;
+
+}
+
+#minutes {
+    width: 12px;
+    height: 135px;
+    margin-left: 174px;
+    margin-top: 44.9px;
+    transform-origin: bottom;
+
+}
+
+#seconds {
+
+    width: 8px;
+    height: 148px;
+    margin-left: 175.6px;
+    margin-top: 32px;
+    transform-origin: bottom;
+
+
+}
